@@ -71,9 +71,11 @@ section {
 }
 
 .headshot {
-    display: block;
-    max-height: 100%;
-    max-width: 100%;
+
+    max-width: 500px;
+    max-height: 500px;
+    margin: 10%;
+    
 }
 
 
@@ -187,8 +189,8 @@ nav {
     .headshot {
         display: inline-block;
         vertical-align: middle;
-        height: 25%;
-        width: 25%;
+        height: 30%;
+        width: 30%;
         margin: auto;
     }
 
