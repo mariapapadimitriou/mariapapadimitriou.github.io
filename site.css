@@ -45,6 +45,13 @@ section {
     width: 50%;
 }
 
+.col-headshot {
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .center {
     margin: auto;
     text-align: center;
@@ -62,6 +69,13 @@ section {
     font-size: 15px;
     margin: 10px;
 }
+
+.headshot {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+}
+
 
 /* NAVIGATION*/
 
@@ -169,7 +183,21 @@ nav {
         width: 25%;
         margin: auto;
     }
-    
+
+    .headshot {
+        display: inline-block;
+        vertical-align: middle;
+        height: 25%;
+        width: 25%;
+        margin: auto;
+    }
+
+    .col-headshot {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
     .project-row {
         flex-direction: column;
     }
@@ -220,7 +248,7 @@ hr {
 .text-container p:nth-child(1){
     font-weight: bold;
     letter-spacing: 1px;
-    color: #0A131F;
+    color: #edf2f4;
     font-size: 22px;
     line-height: 30px;
 }
@@ -228,27 +256,30 @@ hr {
 .text-container p:nth-child(2){
     font-weight: bold;
     letter-spacing: 1px;
-    color: #0A131F;
+    color: #edf2f4;
     font-size: 40px;
 }
 
 .text-container p:nth-child(3){
     letter-spacing: 1px;
-    color: #0A131F;
+    color: #edf2f4;
     font-size: 20px;
 }
 
 .text-container p{
-    margin: 45px 0px 25px 45px;
+    padding: 25px 0px;
+}
+
+.text-container{
+    padding: 50px 50px 20px 50px;
 }
 
 .down-cv {
-    background-color: #0A131F;
+    background-color: #E63946;
     color: #edf2f4;
-    border: 2px solid #0A131F;
+    border: 2px solid #E63946;
     font-family: 'Poppins', sans-serif;
     padding: 10px;
-    margin: 0px 0px 25px 45px;
     outline: 0;
 }
 
