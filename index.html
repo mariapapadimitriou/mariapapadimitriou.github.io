@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Maria Papadimitriou</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="site.css" />
+        <link rel="stylesheet" type="text/css" href="lightbox.min.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    </head>
+    <body style = "display: block"> 
+        <section id="home" class="home">
+            <nav id="navbar">
+                <div class = "logo">
+                    <h4>MARIA PAPADIMITRIOU</h4>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#work">EXPERIENCE</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#aboutme">ABOUT ME</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+            <hr>
+            <div class="row">
+                <div class="col">
+                    <div class="text-container">
+                        <p>Welcome to my site!</p>
+                        <p>I'm Maria Papadimitriou.</p>
+                        <p>I am passionate about data science & analytics, computer programming, and finance. Currently, I'm pursuing an Industrial Engineering undergraduate degree at the University of Toronto, with a minor in Business.</p>
+                        <a href = "Maria Papadimitriou Resume.pdf" download = "GFG"><button class="down-cv">Download Resume</button></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img class = "img" src="headshot.png" width="75%" height="75%" style="display: block; margin: auto; align-items: center;">
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+            <div class = "section-title"><p style="font-size: 40px; margin-left: 10px;"><b>Projects</p></b></div>
+            <div class="project-row">
+                <div class="project-col">
+                    <div class="project-title">Predicting the NBA Playoffs</div>
+                    <div>
+                        <div class="center"><img class = "model" src="nba.png" height="15%" width="15%"></div>
+                        <div class="center"><p>Developed a logistic regression prediction model using Python scikitlearn libraries to classify the outcome of a matchup of two teams in the NBA by using regular season data to train the model. This model was then used in a playoff simulator where 16 teams and their seed rankings from the season were given as input, and were continuously matched up when predicted the winner each round, resulting in one final winning team as output. The overall playoff simulator was repeated using Monte Carlo simulation and the frequency of each team winning was displayed on a histogram.</p></div>
+                    </div>
+                    <div class="button-pos">
+                        <a href = "Predicting the NBA Finals Using Data Science.pdf" download = "GFG"><button class="down-button">Read More</button></a>
+                    </div>
+                </div>
+                <div class="project-col">
+                    <div class="project-title">Coin Counter Image Recognition Project</div>
+                    <div>
+                    <div class="center"><img class = "model" src="coin project.png" height="15%" width="15%"></div>
+                    </div>
+                    <p>Built a database of 1000 images of Canadian coins (including nickels, dimes, quarters, loonies, and toonies), and created a convolutional neural network (CNN) artificial intelligence model using Python PyTorch libraries to identify and classify an image of a coin. An additional program was developed using OpenCV and Hough Circles libraries to identify and crop singular coins from an image of groupings of coins. Each coin was then classified using the CNN, and their monetary value was added to the total balance.</p>
+                    <div class="button-pos">
+                        <a href = "Counting Canadian Coins Using AI.pdf" download = "GFG"><button class="down-button">Read More</button></a>
+                        <a href = "https://youtu.be/RDJ_fdwdD9c"><button class="down-button">Presentation</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-row">
+                <div class="project-col">
+                    <div class="project-title">Medicine Tracker Web Application</div>
+                    <div>
+                    <div class="center"><img class = "model" src="medicine.png" height="15%" width="15%"></div>
+                    </div>
+                    <p>Built the front and back-end of a Java based web application containing client data on vaccine/dose information to help track next dosage times. A MS Access relational database was used to hold client username/login information, associated drugs used by each client, and specific dosage requirements for each drug. SQL queries were run to pull and display data from the user to the front-end interface. The system performed a total of 3 use cases including (1) adding a medicine to their account, (2) recording when they take the vaccine (where the next time and quantity remaining is displayed), and (3) recording when they take their required medication.</p>
+                    <div class="button-pos"><a href = "Vaccine Management System.pdf" download = "GFG"><button class="down-button">Read More</button></a></div>
+                </div>
+                <div class="project-col">
+                    <div class="project-title">Stock Pitch Competition</div>
+                    <div>
+                    <div class="center"><img class = "model" src="stonks.png" height="15%" width="15%"></div>
+                    </div>
+                    <p>Placed third in a stock pitch competition held by the University of Toronto Engineering Finance Association (UTEFA). Presented a stock pitch to a panel of six industry judges (including investment bankers from Barclay’s, BMO Capital Markets, and NBC Financial Markets, and traders from CIBC Capital Markets) in a team with three other students. Recommended a long position in Disney stock (NYSE: DIS) at ~$108.23/share with a $126 target price based on the belief that Disney’s recent acquisition of Fox was more accretive than the current market sentiment.</p>
+                    <div class="button-pos"><a href = "Disney-Stock-Pitch.pdf" download = "GFG"><button class="down-button">Read More</button></a></div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section id="work" class = "work">
+            <div class = "section-title"><p style="color: #edf2f4; font-size: 40px; font-weight: bold;">Experience</p></div>
+            <div class="timeline">
+                <div class="container left">
+                  <div class="content">
+                    <h2>Analyst, University of Toronto Engineering Finance Assosciation</h2>
+                    <h2 style="font-size: 16px;">(Sep 2018 - Present)</h2>
+                    <p>
+                        <ul>
+                            <li>Created and presented stock pitches for weekly shareholder meetings</li>
+                            <li>Used qualitative valuation techniques, primarily DCF analysis and valuation multiples to help
+                                identify and assess investment opportunities</li>
+                            <li>Provided investment recommendations based on current industry trends, company outlook, and
+                                market forecasts</li>
+                        </ul>
+                    </p>
+                  </div>
+                </div>
+                <div class="container right">
+                  <div class="content">
+                    <h2>Project Management Intern, VSC Group Inc.</h2>
+                    <h2 style="font-size: 16px;">(May 2019 - Aug 2019)</h2>
+                    <p>
+                        <ul>
+                            <li>Assisted General Manager in developing project scopes, schedules, specifications, and test forms for various mechanical and electrical systems</li>
+                            <li>Worked in partnership with Project Managers and Document Control to decrease timelines for completion by 40% which resulted in meeting external deadlines two weeks in advance</li>
+                        </ul>
+                    </p>
+                  </div>
+                </div>
+                <div class="container left">
+                    <div class="content">
+                      <h2>Marketing Strategist, You're Next Career Network</h2>
+                      <h2 style="font-size: 16px;">(Apr 2019 - Apr 2020)</h2>
+                      <p>
+                          <ul>
+                              <li>Applied brand structure across social channels to triple inbound client traffic</li>
+                              <li>Developed and executed a marketing campaign to grow client business and maximize client reach
+                                to 40.2K and client responses to 3K</li>
+                              <li>Assisted in the planning and strategy for marketing, media, and public relation activities in support of commercialization plans with outreach to 5000+ students</li>
+                          </ul>
+                      </p>
+                    </div>
+                  </div>
+                <div class="container right">
+                    <div class="content">
+                      <h2>Intern Analyst, Scotiabank Capital Markets</h2>
+                      <h2 style="font-size: 16px;">Fixed Income Derivative Solutions (May - Aug 2020)</h2>
+                      <p>
+                        <ul>
+                            <li>Developed a full stack web application which tracked daily credit spread data from various sub-soverign issuers relative to the Canadian Government Bond yield curve</li>
+                            <li>Aggregated data on the composition of the FTSE Canada Universe Bond Index and reported on the changes in index metrics over time</li>
+                            <li>Built a MS SQL Server database, and utilized Django open-source web framework to process and render data from the database using Python</li>
+                            <li>Utilized HTML, CSS, and Javascript languages to build front end interface, as well as Chart.js to visualize the historical data</li>
+                        </ul>
+                    </p>
+                    </div>
+                </div>
+                <div class="container left">
+                    <div class="content">
+                      <h2>Intern Analyst, Scotiabank Capital Markets</h2>
+                      <h2 style="font-size: 16px;">Prime Services (Sep - Dec 2020)</h2>
+                      <p>
+                        <ul>
+                            <li>Designed, maintained, and produced daily reports on databases including average borrowing/lending rates, total market values, profits, and inventory per client</li>
+                            <li>Responsible for reviewing and instructing option invoice payments to key executional brokers, and acting as the main point of contact to resolve any issues that arise</li>
+                        </ul>
+                      </p>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                      <h2>Intern Analyst, Scotiabank Capital Markets</h2>
+                      <h2 style="font-size: 16px;">XVA Trading (Jan - Apr 2021)</h2>
+                      <p>
+                        <ul>
+                            <li>Blottered daily trades and hedges done by the group to include the different value adjustments fees calculated through a market simulation software to report daily profit</li>
+                            <li>Wrote scripts in Python to web scrape online data sources containing daily US and CA overnight lending rates, reducing report generation time by 50%</li>
+                            <li>Built and maintained a process to upload collateral buys & sells data to an internal security inventory database</li>
+                            <li>Automated the calculation of beta hedge ratios for different single name credit default swaps against the CDX IG index using Python, reducing report generation time by 25%</li>
+                          </ul>
+                      </p>
+                    </div>
+                </div>
+                <div class="container left">
+                    <div class="content">
+                    <h2>University of Toronto</h2>
+                    <h2 style="font-weight: lighter;">Expected Graduation May 2022</h2>
+                    </div>
+              </div>
+        </section>
+        <section id="skills" class="skills">
+            <div class = "section-title"><p style="color: #0A131F; font-size: 40px;">Skills</p></div>
+            <h2 style="color: #0A131F; text-align: left; font-weight: lighter; font-size: 15px; margin: 0px 40px;">Percentages represent level of competence.</h2>
+            <div class="row">
+                <div class="col">
+                    <div class="skills-text">
+                        <p>Python</p><div class="s-container"><div class="s-inner" style="width: 90%; background-color: #E63946;">90%</div></div>
+                        <p>MS Access</p><div class="s-container"><div class="s-inner" style="width: 80%; background-color: #A8DADC; color: #0A131F;">80%</div></div>
+                        <p>MS SQL Server</p><div class="s-container"><div class="s-inner" style="width: 80%; background-color: #457B9D;">80%</div></div>
+                        <p>SQL</p><div class="s-container"><div class="s-inner" style="width: 75%; background-color: #0A131F;">75%</div></div>
+                        <p>Java</p><div class="s-container"><div class="s-inner" style="width: 70%; background-color: #E63946;">70%</div></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skills-text">
+                        <p>HTML</p><div class="s-container"><div class="s-inner" style="width: 75%; background-color: #A8DADC; color: #0A131F;">75%</div></div>
+                        <p>CSS</p><div class="s-container"><div class="s-inner" style="width: 75%; background-color: #457B9D;">75%</div></div>
+                        <p>Javascript</p><div class="s-container"><div class="s-inner" style="width: 70%; background-color: #0A131F;">70%</div></div>
+                        <p>Django Web Framework</p><div class="s-container"><div class="s-inner" style="width: 75%; background-color: #E63946;">75%</div></div>            
+                        <p>Visual Basic for Applications (VBA)</p><div class="s-container"><div class="s-inner" style="width: 75%; background-color: #A8DADC; color: #0A131F;">85%</div></div>            
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="aboutme" class="aboutme">
+            <div class = "section-title" style="color: #0A131F; font-size: 40px; padding: 0px;">About Me</div>
+            <div>
+                <p style="font-size: 15px; text-align: left; padding: 0px;">
+                    Even though this site shows my technical skills, I want to show you things that aren’t on my resume! Fitness is and has always been a big part of my life — I love playing soccer (I’ve played for 14 years) and weight lifting! Wellness is really important to me, and I'll always make time for exercise and focusing on my physcial and mental health. I'm also a film buff when it comes to crime/thriller movies! Finally, I LOVE to travel. Check out some cool shots I’ve taken on my favourite trips below!
+                </p>
+                <div class="gallery-row">
+                    <div class="gallery-col">
+                        <a href= "gallery/trevi.jpg" data-lightbox="mygallery" data-title="Trevi Fountain, Rome, Italy"><img src="gallery/trevi.jpg"></a>
+                        <a href= "gallery/spanish-steps.jpg" data-lightbox="mygallery" data-title="Spanish Steps, Rome, Italy"><img src="gallery/spanish-steps.jpg"></a>
+                        <a href= "gallery/collus.jpg" data-lightbox="mygallery" data-title="Collusseum, Rome, Italy"><img src="gallery/collus.jpg"></a>
+                        <a href= "gallery/amalfi-coast.jpg" data-lightbox="mygallery" data-title="Positano, Amalfi Coast, Italy"><img src="gallery/amalfi-coast.jpg"></a>
+                        <a href= "gallery/cinque-terre.jpg" data-lightbox="mygallery" data-title="Vernazza, Cinque Terre, Italy"><img src="gallery/cinque-terre.jpg"></a>
+                        <a href= "gallery/vernazza.jpg" data-lightbox="mygallery" data-title="Vernazza, Cinque Terre, Italy"><img src="gallery/vernazza.jpg"></a>
+                        <a href= "gallery/manarola.jpg" data-lightbox="mygallery" data-title="Manarola, Cinque Terre, Italy"><img src="gallery/manarola.jpg"></a>
+                        <a href= "gallery/corfu.jpg" data-lightbox="mygallery" data-title="Paleokastritsa Beach, Corfu, Greece"><img src="gallery/corfu.jpg"></a>
+                        <a href= "gallery/mountain-greece.jpg" data-lightbox="mygallery" data-title="Porto Katsiki Beach, Lefkada, Greece"><img src="gallery/mountain-greece.jpg"></a>
+                        <a href= "gallery/lelouvre2.jpg" data-lightbox="mygallery" data-title="Le Louvre, Paris, France"><img src="gallery/lelouvre2.jpg"></a>
+                    </div>
+                    <div class="gallery-col">
+                        <a href="gallery/florence.jpg" data-lightbox="mygallery" data-title="Florence, Italy"><img src="gallery/florence.jpg"></a>
+                        <a href="gallery/milano.jpg" data-lightbox="mygallery" data-title="Galleria Vittorio, Milan, Italy"><img src="gallery/milano.jpg"></a>
+                        <a href="gallery/booth.jpg" data-lightbox="mygallery" data-title="London, England"><img src="gallery/booth.jpg"></a>
+                        <a href="gallery/lefkada.jpg" data-lightbox="mygallery" data-title="Porto Katsiki Beach, Lefkada, Greece"><img src="gallery/lefkada.jpg"></a>
+                        <a href="gallery/milano-2.jpg" data-lightbox="mygallery" data-title="Duomo di Milano, Milan, Italy"><img src="gallery/milano-2.jpg"></a>
+                        <a href="gallery/hollywood.jpg" data-lightbox="mygallery" data-title="Hollywood Sign, Hollywood, California"><img src="gallery/hollywood.jpg"></a>
+                        <a href="gallery/goldengate2.jpg" data-lightbox="mygallery" data-title="Golden Gate Bridge, San Francisco, California"><img src="gallery/goldengate2.jpg"></a>
+                        <a href="gallery/santa-monica-peir.jpg" data-lightbox="mygallery" data-title="Santa Monica Pier, Santa Monica, California"><img src="gallery/santa-monica-peir.jpg"></a>
+                        <a href="gallery/porto-katsiki.jpg" data-lightbox="mygallery" data-title="Porto Katsiki Beach, Lefkada, Greece"><img src="gallery/porto-katsiki.jpg"></a>
+                    </div>
+                    <div class="gallery-col">
+                        <a href="gallery/san-giminano.jpg" data-lightbox="mygallery" data-title="San Gimignano, Tuscany, Italy"><img src="gallery/san-giminano.jpg"></a>
+                        <a href="gallery/santa-barbara.jpg" data-lightbox="mygallery" data-title="Santa Barbara, California"><img src="gallery/santa-barbara.jpg"></a>
+                        <a href="gallery/cali-highway.jpg" data-lightbox="mygallery" data-title="Pacific Coast Highway, California"><img src="gallery/cali-highway.jpg"></a>
+                        <a href="gallery/cali-highway2.jpg" data-lightbox="mygallery" data-title="Pacific Coast Highway, California"><img src="gallery/cali-highway2.jpg"></a>
+                        <a href="gallery/morro rock.jpg" data-lightbox="mygallery" data-title="Morro Rock, California"><img src="gallery/morro rock.jpg"></a>
+                        <a href="gallery/dolores.jpg" data-lightbox="mygallery" data-title="Dolores Park, San Francisco, California"><img src="gallery/dolores.jpg"></a>
+                        <a href="gallery/nydri.jpg" data-lightbox="mygallery" data-title="Porto Katsiki Beach, Lefkada, Greece"><img src="gallery/nydri.jpg"></a>
+                        <a href="gallery/parga.jpg" data-lightbox="mygallery" data-title="Porto Katsiki Beach, Lefkada, Greece"><img src="gallery/parga.jpg"></a>
+                        <a href="gallery/mona-lisa.jpg" data-lightbox="mygallery" data-title="Mona Lisa at Le Louvre"><img src="gallery/mona-lisa.jpg"></a>
+                    </div>
+                    <div class="gallery-col">
+                        <a href="gallery/ferris.jpg" data-lightbox="mygallery" data-title="London, England"><img src="gallery/ferris.jpg"></a>
+                        <a href="gallery/london-bridge.jpg" data-lightbox="mygallery" data-title="Tower Bridge, London, England"><img src="gallery/london-bridge.jpg"></a>
+                        <a href="gallery/notting-hill.jpg" data-lightbox="mygallery" data-title="Notting Hill, London, England"><img src="{gallery/notting-hill.jpg"></a>
+                        <a href="gallery/arc.jpg" data-lightbox="mygallery" data-title="Arc de Triomphe, Paris, France"><img src="gallery/arc.jpg"></a>
+                        <a href="gallery/eifel-day.jpg" data-lightbox="mygallery" data-title="Eifel Tower, Paris, France"><img src="gallery/eifel-day.jpg"></a>
+                        <a href="gallery/eifel.jpg" data-lightbox="mygallery" data-title="Eifel Tower at Night, Paris, France"><img src="gallery/eifel.jpg"></a>
+                        <a href="gallery/le-louvre.jpg" data-lightbox="mygallery" data-title="Le Louvre, Paris, France"><img src="gallery/le-louvre.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="contact-message">
+                <b>Thanks for checking out my portfolio!</b><br><br>
+                Feel free to send me an email or connect with me on Linkedin.<br><br>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/mariaapapadimitriou/"><i class = "fab fa-linkedin"></i></a>
+                <a href="mailto:maria.papadimitriou@mail.utoronto.ca"><i class = "far fa-envelope"></i></a>
+                <a href="tel:6472161213"><i class = "fa fa-phone"></i></a>
+            </div>
+        </section>
+        <script src="app.js"></script>
+        <script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
+        <footer>
+            <div class="foot-note">
+                Maria Papadimitriou 2021
+            </div>
+        </footer>
+    </body>
+    
+<!--
+#2b2d42 (black)
+#8d99ae (gray)
+#edf2f4 (white)
+caf0f8 (light blue)
+
+
+red - E63946
+white - FFFFFF
+light blue - A8DADC
+medium blue - 457B9D
+dark blue - 0A131F
+-->
