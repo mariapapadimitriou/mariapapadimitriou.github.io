@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Maria Papadimitriou</title>
-  <meta name="description" content="Maria Papadimitriou — electronic trading analyst at Scotiabank Global Banking and Markets, Toronto.">
+  <meta name="description" content="Maria Papadimitriou, associate trader on the electronic trading desk at Wealthsimple, Toronto.">
   <meta name="theme-color" content="#747649">
   <meta property="og:title" content="Maria Papadimitriou">
-  <meta property="og:description" content="Electronic trading, index and ETF markets. Toronto.">
+  <meta property="og:description" content="Equity trading, execution quality and market structure. Toronto.">
   <meta property="og:image" content="https://mariapapadimitriou.github.io/assets/maria.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,7 +34,7 @@
 
       <div class="intro">
         <h1 class="name"><span>Maria</span> <span>Papadimitriou</span></h1>
-        <p class="lede">Electronic trading analyst at Scotiabank Global&nbsp;Banking&nbsp;and&nbsp;Markets. I work where index, ETF and portfolio trading meet code, and I&rsquo;m building toward ETF and index portfolio management.</p>
+        <p class="lede">Associate trader on the electronic trading desk at Wealthsimple. Before that, portfolio, index and electronic trading at Scotiabank. I work where execution quality meets engineering.</p>
         <p class="hero-links">
           <a href="https://www.linkedin.com/in/mariaapapadimitriou/">LinkedIn</a>
           <a href="https://github.com/mariapapadimitriou">GitHub</a>
@@ -46,10 +46,11 @@
   <main>
 
     <section class="about wrap">
-      <p class="about-text">Three-plus years on a capital markets trading floor, an industrial engineering degree, and a habit of turning repetitive desk work into tools. I care about the mechanics: how an index rebalances, where tracking error comes from, and how a large block gets done without moving the market.</p>
+      <p class="about-text">Four years in Canadian equity trading, from institutional portfolio and index trades to algorithmic execution and now retail order flow at scale. I trained as an industrial engineer, so I&rsquo;m usually also building the tool that makes the desk faster.</p>
       <dl class="creds">
         <div><dt>Education</dt><dd>B.A.Sc. Industrial Engineering, University of Toronto, 2022. Minors in engineering business and artificial intelligence.</dd></div>
-        <div><dt>Licensing</dt><dd>Passed the CIRO Derivatives Fundamentals Exam.</dd></div>
+        <div><dt>Licences and exams</dt><dd>Canadian Securities Course, Conduct and Practices Handbook and Trader Training Course. FINRA SIE, Series 7, 57 and 63. Passed the CIRO Derivatives Fundamentals Exam.</dd></div>
+        <div><dt>Industry</dt><dd>Director, Institutional Equity Traders Association (IETA), since 2024.</dd></div>
         <div><dt>In progress</dt><dd>Working toward the CFA designation.</dd></div>
       </dl>
     </section>
@@ -61,16 +62,25 @@
           <li>
             <p class="when">Now</p>
             <div>
-              <h3>Electronic Trading Analyst</h3>
-              <p class="org">Scotiabank Global Banking and Markets</p>
+              <h3>Associate Trader, Electronic Trading</h3>
+              <p class="org">Wealthsimple</p>
+              <p>The desk oversees the self-directed order flow coming through the Wealthsimple app and is the last check before orders go to our executing counterparties. I work with exchanges, brokers and vendors on execution quality, run end-to-end and FIX testing for new product launches from the client experience down to the exchange, and build AI tools that help the desk scale.</p>
             </div>
           </li>
           <li>
-            <p class="when">Before</p>
+            <p class="when">2024</p>
+            <div>
+              <h3>Electronic Trading</h3>
+              <p class="org">Scotiabank Global Banking and Markets</p>
+              <p>Advised institutional clients on algorithmic trading strategies, built bespoke algo solutions for routing, exchange allocation and interlisted venues, and produced transaction cost analysis against benchmarks.</p>
+            </div>
+          </li>
+          <li>
+            <p class="when">2022</p>
             <div>
               <h3>Portfolio Trading &amp; Index Analyst</h3>
               <p class="org">Scotiabank Global Banking and Markets</p>
-              <p>Index rebalancing and corporate actions, tracking error, large-block execution and ETF flow.</p>
+              <p>Executed high-touch portfolio and basket trades for institutional clients across Canadian equities. Led the rebuild of the desk&rsquo;s index prediction models for S&amp;P/TSX, FTSE, Solactive and MSCI into a Django and SQL Server app, reaching 90% forecast accuracy and cutting manual work by 80%.</p>
             </div>
           </li>
           <li>
@@ -78,14 +88,14 @@
             <div>
               <h3>Sales &amp; Trading Intern Analyst</h3>
               <p class="org">Scotiabank Capital Markets</p>
-              <p>Three rotations. On Fixed Income Derivative Solutions, built a Django app and SQL Server database tracking sub-sovereign credit spreads. In Prime Services, built client borrow and P&amp;L reporting. On XVA Trading, automated CDS beta-hedge ratios against CDX IG in Python.</p>
+              <p>Rotations on Fixed Income Derivative Solutions, Prime Services and XVA Trading, building credit spread tools, client P&amp;L reporting and automated CDS hedge ratios.</p>
             </div>
           </li>
           <li>
             <p class="when">2017&ndash;22</p>
             <div>
               <h3>University of Toronto</h3>
-              <p class="org">Industrial Engineering</p>
+              <p class="org">B.A.Sc. Industrial Engineering</p>
               <p>President of the Engineering Finance Association (UTEFA). First-place capstone and the Peri Family Award.</p>
             </div>
           </li>
@@ -96,6 +106,11 @@
     <section class="projects wrap" id="projects">
       <h2 class="section-head">Projects</h2>
       <ul class="project-list">
+        <li>
+          <h3>Index rebalance outperformance model</h3>
+          <p>A random forest model that predicts how stocks move in the two weeks around an index rebalance, using supply and demand imbalances, liquidity constraints and ETF and hedge fund behaviour as features. 74% predictive accuracy, built for pre-trade risk and positioning.</p>
+          <p class="tags">Python, scikit-learn</p>
+        </li>
         <li>
           <h3>MacroLens</h3>
           <p>A macro market dashboard covering the US, Canada, Mexico, Brazil and Chile: equities, fixed income, factor spreads and a composite trading-difficulty score. Flask and Python on Bloomberg data, charted with Chart.js.</p>
@@ -111,18 +126,14 @@
           <p>Capstone project, first place. Planners draw a proposed bike lane on a map and get cost, ridership, emissions and safety estimates back, cutting a two-hour preliminary analysis to about thirty seconds.</p>
           <p class="tags">Django, Mapbox, SQLite</p>
         </li>
-        <li>
-          <h3>Run to Give Toronto</h3>
-          <p>Designed and built the charity&rsquo;s website.</p>
-          <p class="tags"><a href="https://www.runtogive.ca">runtogive.ca</a></p>
-        </li>
       </ul>
 
-      <h3 class="earlier-head">From school</h3>
+      <h3 class="earlier-head">Earlier</h3>
       <ul class="earlier">
         <li><a href="assets/docs/nba-playoffs-prediction.pdf">Predicting the NBA playoffs</a> <span>Logistic regression and Monte Carlo playoff simulation</span></li>
         <li><a href="assets/docs/coin-counter-cnn.pdf">Counting Canadian coins with a CNN</a> <span>PyTorch and OpenCV, <a href="https://youtu.be/RDJ_fdwdD9c">presentation video</a></span></li>
         <li><a href="assets/docs/disney-stock-pitch.pdf">Disney stock pitch</a> <span>Third place, UTEFA stock pitch competition</span></li>
+        <li><a href="https://www.runtogive.ca">Run to Give Toronto</a> <span>Designed and built the charity&rsquo;s website</span></li>
         <li><a href="assets/docs/medicine-tracker.pdf">Medicine tracker</a> <span>Java web app with a relational database</span></li>
       </ul>
     </section>
