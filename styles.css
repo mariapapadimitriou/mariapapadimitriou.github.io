@@ -134,26 +134,13 @@ a:hover { text-decoration-thickness: 2px; }
 .earlier li > a { font-weight: 500; }
 .earlier span { color: #4a4c3c; }
 
-/* ---------- Life ---------- */
-.life { background: var(--olive); color: #f3f4ea; padding: clamp(4rem, 10vw, 7rem) 0; }
-.life :focus-visible { outline-color: var(--glow); }
-.life-text { max-width: 34rem; font-size: 1.15rem; margin-top: -1rem; }
-.strip {
-  display: flex; gap: 1rem; overflow-x: auto; scroll-snap-type: x mandatory;
-  padding: 2.5rem 0 1rem; scrollbar-width: thin; scrollbar-color: var(--sage) transparent;
-}
-.strip figure { flex: 0 0 auto; scroll-snap-align: start; scroll-margin-left: var(--gutter); }
-.strip figure:first-child { margin-left: var(--gutter); }
-.strip::after { content: ""; flex: 0 0 calc(var(--gutter) - 1rem); }
-.strip img { height: clamp(16rem, 42vw, 26rem); width: auto; border-radius: 2px; }
-.strip figcaption { font-size: 0.9rem; margin-top: 0.5rem; color: #e2e4d4; }
-
 /* ---------- Contact ---------- */
-.contact { padding: clamp(5rem, 12vw, 9rem) 0 2.5rem; }
+.contact { background: var(--olive); color: #f3f4ea; padding: clamp(5rem, 12vw, 9rem) 0 2.5rem; }
+.contact :focus-visible { outline-color: var(--glow); }
 .contact-head { font-family: var(--serif); font-weight: 300; font-size: clamp(2.5rem, 7vw, 5.5rem); line-height: 1; letter-spacing: -0.02em; }
 .contact-links { margin-top: 2rem; display: flex; flex-wrap: wrap; gap: 1rem 2.5rem; font-size: 1.15rem; font-weight: 500; }
-.contact-links a { text-decoration-color: var(--olive); text-decoration-thickness: 2px; }
-.fine { margin-top: clamp(4rem, 10vw, 7rem); font-size: 0.875rem; color: #5b5d4a; }
+.contact-links a { text-decoration-color: var(--glow); text-decoration-thickness: 2px; }
+.fine { margin-top: clamp(4rem, 10vw, 7rem); font-size: 0.875rem; color: #dcdec9; }
 
 /* ---------- Small screens ---------- */
 @media (max-width: 52rem) {
